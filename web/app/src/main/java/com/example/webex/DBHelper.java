@@ -20,7 +20,7 @@ import okhttp3.Response;
 
 public class DBHelper {
 
-    private static final String host = "wt14.pgt.su/include/sql.php"; //ip адресс или домен сервера
+    private static final String host = "192.168.0.104/sql.php"; //ip адресс или домен сервера
 
     private OkHttpClient client;
 

@@ -31,14 +31,5 @@ public class personal_account extends AppCompatActivity {
                 startActivity(intent1);
             }
         });
-
-        Button web = (Button) findViewById(R.id.web2);
-        web.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(personal_account.this, browser.class);
-                startActivity(intent);
-            }
-        });
     }
 }
